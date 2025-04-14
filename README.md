@@ -14,18 +14,22 @@ The goal of this project was to analyze online sales data across customers, citi
 Total Sales (Amount): ₹438K\
 Total Profit: ₹37K\
 Total Quantity Sold: 5615 units\
-Average Order Value (AOV): ₹121K2.
+Average Order Value (AOV): ₹121K
   
 ### 2. Which states and cities contribute the highest sales and revenue?
 Top States:
-- Maharashtra
-- Madhya Pradesh
-- Uttar Pradesh
-These three states account for the majority of total revenue.
+- Maharashtra – ~₹100K
+- Madhya Pradesh – ~₹50K
+- Uttar Pradesh – ~₹25K
+- Delhi – ~₹25K
+- Rajasthan – ~₹25K
 
 ### 3. Which product categories and sub-categories are top performers?
 - Top Category by Quantity Sold:
-  - Clothing (63%)
+  - Clothing - ~ 63%
+  - Electronics - ~ 20%
+  - Furniture - ~ 17%
+  - 
 - Top Sub-Categories by Profit:
   - Printers
   - Bookcases
@@ -34,21 +38,21 @@ These three states account for the majority of total revenue.
 - Highest Profits:
   - January, February, and November
 - Profit Dips:
-  - May and June (notable losses)
-  
-Seasonal trends like post-holiday shopping and festive months influence profitability.
+  - May and July (notable losses)
 
 ### 5. Which payment modes are most commonly used by customers?
 Top Modes by Quantity:
   - Cash on Delivery (44%)
   - UPI (21%)
-  - Credit Card (13%)
+  - Others (35%)
 
 ### 6. Who are the top customers based on purchase value?
 Top Customers:
   - Harivansh
   - Madhav
   - Madan Mohan
+  - Shiva
+  - Vishakha
 
 These customers contribute significantly to total revenue.
 
@@ -56,6 +60,8 @@ These customers contribute significantly to total revenue.
 Leading Sub-Categories (by Profit):
   - Printers
   - Bookcases
+
+Printer sales may be lower in quantity but generate the highest margin.
 
 ### 8. How do different regions perform in terms of sales and profit?
 - Top Performing States:
@@ -65,21 +71,16 @@ Leading Sub-Categories (by Profit):
 
 ### 9. Are there specific months with profit dips or losses?
 Profit Dips Observed In:
-  - May and June
+  - May and July
   - September and December showed minor losses
+  - June (Break-even)
 
 These months may need attention for future marketing or operational improvements.
 
-### 10. What percentage of orders come from each payment mode and category?
-- Payment Mode Split:
-  - COD: 44%
-  - UPI: 21%
-  - Credit/Debit Cards: 23% combined
-  - EMI: 10%
-- Category Split (by Quantity):
-  - Clothing: 63%
-  - Electronics: 21%
-  - Furniture: 17%
+### 10. Is there a mismatch between order volume and profit contribution?
+Answer:
+
+Yes — while Clothing drives the most orders, Electronics and Furniture (especially Printers and Bookcases) generate more profit.
 
 ## Process   
 Cleaned and prepared the datasets in Power Query\
