@@ -2,7 +2,7 @@
 ![Dashboard image](Dashboard.png)
 
 ## Project Objective
-The goal of this project was to analyze online sales data across customers, cities, product categories, and payment modes — and to create an interactive dashboard that makes it easy to draw insights.
+The goal of this project was to analyze online sales data across customers, cities, product categories, and payment modes - and to create an interactive dashboard that makes it easy to draw insights.
 
 ## Dataset Used: 
 [**Order Details**](https://github.com/radhasiingh/Power-BI-Project-1/blob/main/Details.csv)\
